@@ -1,0 +1,50 @@
+# Ignore composer vendor directory
+/vendor
+
+# Ignore environment configuration files
+.env
+
+# Ignore any logs
+/storage/logs/*.log
+
+# Ignore compiled files
+/public/css/*.css
+/public/js/*.js
+
+# Ignore mix-manifest.json
+/public/mix-manifest.json
+
+# Ignore the public storage directory
+/public/storage
+
+# Ignore the Homestead/Homestead.yaml file if you use Homestead for local development
+/Homestead.json
+
+# Ignore the Homestead.yaml file if you use Homestead for local development
+/Homestead.yaml
+
+# Ignore npm debug log
+npm-debug.log
+
+# Ignore yarn integrity file
+yarn.lock
+
+# Ignore composer lock file
+composer.lock
+
+# Ignore IDE and editor files
+.idea/
+*.iml
+*.idea
+*.phpstorm.meta.php
+.vscode/
+
+# Ignore Mac OS X hidden files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore editor backup files
+*~
+*.swp
+._*
