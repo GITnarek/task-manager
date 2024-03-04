@@ -29,7 +29,6 @@ class TaskReadRepository implements TaskReadRepositoryInterface
             $date = $filters['date'];
             $query->whereDate('created_at', $date);
         }
-
         return $query->get()->map(function ($task) {
             return [
                 'id' => $task->id,
